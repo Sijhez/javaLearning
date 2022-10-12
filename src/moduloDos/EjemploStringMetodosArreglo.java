@@ -7,7 +7,7 @@ public class EjemploStringMetodosArreglo {
         System.out.println("trabalenguas.length() = " + trabalenguas.length()); //cuando se le pide la extensión del String, se pide a través del método
         System.out.println("trabalenguas.toCharArray() = " + trabalenguas.toCharArray());//.toCharArray convierte el string en un arreglo de tipo Char
 
-        char[] arreglo = trabalenguas.toCharArray();
+        char[] arreglo = trabalenguas.toCharArray();// genera un array de characters
         int largo = arreglo.length;//cuando se pide la extensión del array del string, se solicita a través de una propiedad
         System.out.println("largo = " + largo);
         for(int i=0; i < largo; i++){
