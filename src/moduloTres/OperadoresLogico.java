@@ -24,6 +24,12 @@ public class OperadoresLogico {
         
         boolean b5 = (true || true) && false;
         System.out.println("b5 = " + b5);
+        
+        boolean b6 = true || false && false || false; // por la prioridad implicita, se evalua como true
+        System.out.println("b6 = " + b6);
+
+        boolean b7 = ((true || false) && false) || false; //al tener los parentesis se evalua por precedencia del operador
+        System.out.println("b7 = " + b7);
 
     }
 }
