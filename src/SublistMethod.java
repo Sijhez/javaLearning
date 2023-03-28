@@ -11,7 +11,7 @@ public class SublistMethod {
             arrList.add("D");
 
             System.out.println("original arrList = " + arrList);
-            List<String> sublista = arrList.subList(0,4);
+            List<String> sublista = arrList.subList(1,2);
             System.out.println("sublista = " + sublista);
 
             int listSize = arrList.size();
